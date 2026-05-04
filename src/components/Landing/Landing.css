@@ -1,0 +1,39 @@
+#landing-hero {
+    height: 100vh;
+    background-image:
+        radial-gradient(circle, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 100%), 
+        url(./../../assets/landing-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-hero-container {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+    font-family: var(--font-main);
+    font-size: 2rem;
+}
+
+#landing-hero-container h2{
+    font-family: var(--font-heading);
+}
+
+#landing-hero-container a{
+    text-decoration: none;
+    color: var(--color-primary);
+    background-color: var(--color-hover);
+    padding: 0.5rem;
+}
+
+#landing-hero-container a:hover{
+    background-color: var(--color-active);
+}
