@@ -1,12 +1,10 @@
 #landing-hero {
-    height: 100vh;
     background-image:
         radial-gradient(circle, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 100%), 
         url(./../../assets/landing-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
