@@ -270,7 +270,7 @@ function About() {
     }
   }
   return (
-    <section id="about" className="about-section">
+    <section id="about">
       <div id="about-container">
         <div id="about-nav">
           <button
